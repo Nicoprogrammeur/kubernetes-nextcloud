@@ -22,6 +22,6 @@ then start its service
 
 to finish it will be necessary to start the part nginx for the redirection of the requests on the applis nextcloud with the 3 files remaining in this order:
 
-`kubectl apply -f nginx-ingress-controller.yaml`
-`kubectl apply -f nginx-ingress.yaml`
-`kubectl apply -f nextcloud-ingress.yaml`
+`kubectl apply -f nginx-ingress-controller.yaml`/n
+`kubectl apply -f nginx-ingress.yaml`/n
+`kubectl apply -f nextcloud-ingress.yaml`/n
