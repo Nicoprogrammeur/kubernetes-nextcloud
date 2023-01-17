@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: nextcloud
+  name: nextcloud-dep
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nextcloud-dep
+  template:
+    metadata:
+      labels:
+        app: nextcloud-dep
+    spec:
+      containers:
+      - image: nextcloud:25.0.2-fpm-alpine
+        name: nextcloud-dep
