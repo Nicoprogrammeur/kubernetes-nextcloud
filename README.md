@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Here are 5 yaml files for setting up a nextcloud application on a kubernetes
+Here are 5 yaml files for setting up a nextcloud application on a kubernetes \n
 kubernetes must first be installed and configured to use the `kubectl` commands
 
 Clone the repository
