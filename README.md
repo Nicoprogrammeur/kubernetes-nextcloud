@@ -2,10 +2,10 @@
 
 ## Introduction
 
-Here are 5 yaml files for setting up a nextcloud application on a kubernetes \n
+Here are 5 yaml files for setting up a nextcloud application on a kubernetes <br />
 kubernetes must first be installed and configured to use the `kubectl` commands
 
-Clone the repository
+Clone the repository :
 
 ```
 git clone https://github.com/Nicoprogrammeur/kubernetes-nextcloud.git
@@ -13,7 +13,7 @@ git clone https://github.com/Nicoprogrammeur/kubernetes-nextcloud.git
 
 ### Initialize the cluster
 
-To start the application, go in your Terminal : :
+To start the application, go in your Terminal :
 
 Start the Nextcloud Deploy
 
